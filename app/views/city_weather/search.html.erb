@@ -1,0 +1,23 @@
+<h2> <%=@city%> Weather information </h2>
+<table class="table table-bordered col-md-4 table-position">
+  <thead>
+  </thead>
+  <tbody>
+    <tr>
+      <th>
+        Description
+      </th>
+      <td><%= @weather_response['main']%> <%= image_tag "http://openweathermap.org/img/w/#{@weather_response['icon']}.png" 
+      %>
+      </td>
+    </tr>
+    <tr>
+      <th>minimum Temperature</th>
+      <td> <%=@temp_response['temp_min']%>°F</td>
+    </tr>
+    <tr>
+      <th>Maximum Temperature</th>
+      <td> <%=@temp_response['temp_max']%>°F</td>
+    </tr>
+  </tbody>
+</table>
