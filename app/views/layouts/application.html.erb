@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>CityWeather</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+<head>
+  <title>CityWeather</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-  <body>
-    <%= yield %>
-  </body>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= stylesheet_link_tag "style" %>
+
+</head>
+
+<body>
+  <!-- Just an image -->
+  <nav class="navbar navbar-dark bg-primary">
+    <a class="navbar-brand" href="/">
+      <img src="images/img.png" width="30" height="30" alt="" loading="lazy">City Weather
+    </a>
+  </nav>
+  <% flash.each do |type, msg| %>
+  <div class="alert alert-danger text-center col-md-4 mt-4 flas-msg">
+    <%= msg %>
+  </div>
+  <% end %>
+  <%= yield %>
+</body>
+
 </html>
