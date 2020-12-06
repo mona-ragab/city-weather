@@ -30,4 +30,4 @@ API KEY for https://openweathermap.org/ is provided for test purposes and I will
 
 ## What did you not include in your solution that you want us to know about?
 
-write tests for the tje app.
+write tests for the the app.
