@@ -23,11 +23,11 @@ Note: make sure you have the required database and user as in database.yml
 ```
 bundle install
 rake db:migrate
-API_KEY='37a9a00c585864824a3dd19f607c9cd4' rails s.
+API_KEY='37a9a00c585864824a3dd19f607c9cd4' rails s
 ```
 
 API KEY for https://openweathermap.org/ is provided for test purposes and I will delete it later.
 
 ## What did you not include in your solution that you want us to know about?
 
-write tests for the api.
+write tests for the tje app.
