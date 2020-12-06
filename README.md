@@ -1,5 +1,9 @@
 # README
 
+## Note
+
+I used rails framework and postgresql database
+
 ## Date
 
 December 5, 2020
