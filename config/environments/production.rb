@@ -95,8 +95,8 @@ Rails.application.configure do
     address: 'smtp.gmail.com',
     port: 587,
     domain: 'afternoon-sierra-33909.heroku.com',
-    user_name: ENV.fetch(USER_NAME),
-    password: ENV.fetch(PASSWORD),
+    user_name: ENV.fetch('USER_NAME'),
+    password: ENV.fetch('PASSWORD'),
     authentication: 'plain',
     enable_starttls_auto: true
   }
