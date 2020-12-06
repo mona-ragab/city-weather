@@ -1,10 +1,10 @@
 # README
 
-### Date
+## Date
 
 December 5,2020
 
-### Location of deployed application
+## Location of deployed application
 
 https://afternoon-sierra-33909.herokuapp.com/
 
@@ -18,7 +18,7 @@ I did all of stretch goals.
 
 ## Instructions to run assignment locallybundle install
 
-### Note: make sure you have database with user name and password as in database.yml
+Note: make sure you have database with user name and password as in database.yml
 
 ```
 bundle install
