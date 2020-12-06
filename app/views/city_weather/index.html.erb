@@ -3,7 +3,7 @@
 </div>
 <div class="col-md-4 mt-5 ml-5 form-position">
   <%= form_with(url: "/search", method: "get", data: { remote: false }, html:{class: "form-group"} ) do %>
-  <%= label_tag(:city, "Search for:") %>
+  <%= label_tag(:city, "City Name:") %>
   <%= text_field_tag(:city, "", class: 'form-control', required:true) %>
   <%= submit_tag("Search", class:"btn btn-primary mb-2 mt-2") %>
   <% end %>
