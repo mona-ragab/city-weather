@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Date
 
-Things you may want to cover:
+December 5,2020
 
-* Ruby version
+### Location of deployed application
 
-* System dependencies
+https://afternoon-sierra-33909.herokuapp.com/
 
-* Configuration
+### Time Spent
 
-* Database creation
+Actually I can't determine exact time but approximately 7-8 hours
 
-* Database initialization
+### Stretch goals attempted
 
-* How to run the test suite
+I did all of stretch goals.
 
-* Services (job queues, cache servers, search engines, etc.)
+### Instructions to run assignment locallybundle install
 
-* Deployment instructions
+bundle install
+API_KEY='37a9a00c585864824a3dd19f607c9cd4' rails s
 
-* ...
+I generated this api key for test only and will delete it later
+
+### What did you not include in your solution that you want us to know about?
+
+write tests for the api
