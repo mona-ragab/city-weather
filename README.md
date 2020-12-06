@@ -2,7 +2,7 @@
 
 ## Date
 
-December 5,2020
+December 5, 2020
 
 ## Location of deployed application
 
@@ -10,15 +10,15 @@ https://afternoon-sierra-33909.herokuapp.com/
 
 ## Time Spent
 
-Actually I can't determine exact time but approximately 7-8 hours.
+Actually I can't determine the exact time but approximately 7-8 hours.
 
 ## Stretch goals attempted
 
-I did all of stretch goals.
+I did all of the stretch goals.
 
-## Instructions to run assignment locallybundle install
+## Instructions to run assignment locally
 
-Note: make sure you have database with user name and password as in database.yml
+Note: make sure you have the required database and user as in database.yml
 
 ```
 bundle install
@@ -26,7 +26,7 @@ rake db:migrate
 API_KEY='37a9a00c585864824a3dd19f607c9cd4' rails s.
 ```
 
-I generated this api key for test only and will delete it later.
+API KEY for https://openweathermap.org/ is provided for test purposes and I will delete it later.
 
 ## What did you not include in your solution that you want us to know about?
 
