@@ -20,7 +20,7 @@ I did all of the stretch goals.
 
 ## Instructions to run assignment locally
 
-Note: Pleas, make sure you have the required database and user as in database.yml
+Note: Please, make sure you have the required database and user as in database.yml
 
 ```
 bundle install
