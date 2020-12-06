@@ -1,5 +1,5 @@
 class CityWeatherController < ApplicationController
-  before_action :authenticate_user!
+  before_action :authenticate_user!, only: [:search]
 
   def index; end
 
