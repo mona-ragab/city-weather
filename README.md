@@ -18,7 +18,7 @@ https://afternoon-sierra-33909.herokuapp.com/
 
 Actually I can't determine the exact time but approximately 7-8 hours.
 
-## Stretch goals attempted
+### Stretch goals attempted
 
 I did all of the stretch goals.
 
