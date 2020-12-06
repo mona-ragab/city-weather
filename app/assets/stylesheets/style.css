@@ -6,6 +6,12 @@
   transform: translate(-50%, -50%);
 }
 
+.new-user {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
 .form-position {
   position: absolute;
   top: 60%;
@@ -24,7 +30,32 @@ h2 {
   color: #007bff;
 }
 
-.flas-msg {
+.flash-msg {
   top: 20%;
   left: 28%;
+}
+
+.login-link {
+  position: absolute;
+  top: 10%;
+  left: 90%;
+}
+
+.error-msg {
+  color: red;
+}
+
+.note-error {
+  display: none;
+}
+.sign-up-link {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+}
+
+.forget-pass-link {
+  position: absolute;
+  top: 60%;
+  left: 30%;
 }
