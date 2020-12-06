@@ -2,11 +2,11 @@
 
 ## Note
 
-I used rails framework and postgresql database
+I used rails framework and postgresql database.
 
 ### Date
 
-December 5, 2020
+December 5, 2020.
 
 ### Location of deployed application
 
