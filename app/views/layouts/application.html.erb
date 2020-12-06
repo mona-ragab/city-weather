@@ -18,8 +18,11 @@
     <a class="navbar-brand" href="/">
       <img src="/images/img.png" width="30" height="30" alt="" loading="lazy">City Weather
     </a>
-    <%= link_to 'logout', destroy_user_session_path, method: :delete %>
+    <% if user_signed_in? %>
+    <%= link_to 'logout', destroy_user_session_path, method: :delete, class:"btn btn-primary log-out" %>
+    <%end%>
   </nav>
+
   <% flash.each do |type, msg| %>
   <div class="alert alert-danger text-center col-md-4 mt-4 flash-msg">
     <%= msg %>
