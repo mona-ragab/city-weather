@@ -6,7 +6,9 @@ December 5, 2020
 
 ## Location of deployed application
 
+```
 https://afternoon-sierra-33909.herokuapp.com/
+```
 
 ## Time Spent
 
@@ -18,7 +20,7 @@ I did all of the stretch goals.
 
 ## Instructions to run assignment locally
 
-Note: make sure you have the required database and user as in database.yml
+Note: Please, make sure you have the required database and user as in database.yml
 
 ```
 bundle install
@@ -30,4 +32,4 @@ API KEY for https://openweathermap.org/ is provided for test purposes and I will
 
 ## What did you not include in your solution that you want us to know about?
 
-write tests for the tje app.
+write tests for the the app.
