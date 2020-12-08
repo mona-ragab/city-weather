@@ -29,7 +29,7 @@ Note: Please, make sure you have the required database and user as in database.y
 ```
 bundle install
 rake db:migrate
-API_KEY='37a9a00c585864824a3dd19f607c9cd4' rails s
+API_KEY='your openweather API KEY' rails s
 ```
 
 API KEY for https://openweathermap.org/ is provided for test purposes and I will delete it later.
